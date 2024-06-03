@@ -1,0 +1,28 @@
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio-title {
+    margin: 10px 0;
+  }
+  
+  .portfolio-description {
+    margin: 10px 0;
+  }
+  
+  .portfolio-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .portfolio-link:hover {
+    text-decoration: underline;
+  }
+  
