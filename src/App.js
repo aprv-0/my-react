@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import Header from './components/Header';
 import PortfolioList from './components/PortfolioList';
@@ -10,18 +9,19 @@ const App = () => {
     <div className="App">
       <Header />
       <main>
-        <section id="about" className="about">
-          <div className="about-content">
-            <h2>APURVA KARPE</h2>
-            <p>A Frontend developer passionate about creating beautiful and engaging web experiences.</p>
+        <section id="about" className="section about-section">
+          <div className="container">
+            <h2 className="section-title">APURVA KARPE</h2>
+            <p className="section-description">Frontend Developer</p>
             <button className="explore-button">Explore</button>
           </div>
         </section>
         <PortfolioList />
-        <section id="contact" className="contact">
-          <div className="contact-content">
-            <h2>Contact</h2>
-            <p>Contact me at <a href="mailto:apurva@example.com">apurva@example.com</a></p>
+        <section id="contact" className="section contact-section">
+          <div className="container">
+            <h2 className="section-title">Contact</h2>
+            <p className="section-description">Let's work together!</p>
+            <p>Email: <a href="mailto:apurva@example.com">apurva@example.com</a></p>
           </div>
         </section>
       </main>
@@ -31,5 +31,3 @@ const App = () => {
 };
 
 export default App;
-
-

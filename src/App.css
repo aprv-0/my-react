@@ -1,38 +1,38 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Arial', sans-serif;
   background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
 }
 
-.about,
-.contact {
-  padding: 80px 0;
-  text-align: center;
-}
-
-.about-content,
-.contact-content {
+.container {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.about h2,
-.contact h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  color: #343a40;
+.section {
+  padding: 80px 0;
 }
 
-.about p,
-.contact p {
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.section-description {
   font-size: 1.2em;
-  color: #6c757d;
+  text-align: center;
   margin-bottom: 40px;
 }
 
 .explore-button {
+  display: block;
+  margin: 0 auto;
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #fff;
   background-color: #007bff;
   border: none;
