@@ -11,17 +11,22 @@ const App = () => {
       <main>
         <section id="about" className="section about-section">
           <div className="container">
-            <h2 className="section-title">APURVA KARPE</h2>
-            <p className="section-description">Frontend Developer</p>
-            <button className="explore-button">Explore</button>
+            <div className="section-content">
+              <h2 className="section-title">APURVA KARPE</h2>
+              <p className="section-description">Frontend Developer</p>
+            </div>
           </div>
         </section>
+        <div className="section-divider"></div>
         <PortfolioList />
+        <div className="section-divider"></div>
         <section id="contact" className="section contact-section">
           <div className="container">
-            <h2 className="section-title">Contact</h2>
-            <p className="section-description">Let's work together!</p>
-            <p>Email: <a href="mailto:apurva@example.com">apurva@example.com</a></p>
+            <div className="section-content">
+              <h2 className="section-title">Contact</h2>
+              <p className="section-description">Let's work together!</p>
+              <p className="section-description">Email: <a href="mailto:apurva@example.com">apurva@example.com</a></p>
+            </div>
           </div>
         </section>
       </main>

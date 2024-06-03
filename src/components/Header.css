@@ -1,26 +1,38 @@
+/* Header.css */
 .header {
   background-color: #343a40;
   color: #fff;
   padding: 20px 0;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
 .header-title {
   font-size: 2em;
   margin: 0;
-  text-align: center;
 }
 
 .nav {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 .nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 10px;
-  font-size: 1.2em;
+  margin-left: 20px; /* Add some spacing between links */
+}
+
+.nav a:first-child {
+  margin-left: 0; /* No margin for the first link */
 }
 
 .nav a:hover {
