@@ -1,8 +1,8 @@
-/* Header.css */
 .header {
-  background-color: #343a40;
+  background-color: #764994;
   color: #fff;
   padding: 20px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.288);
 }
 
 .container {
@@ -12,8 +12,10 @@
 
 .header-content {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-between;
   align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .header-title {
@@ -28,13 +30,23 @@
 .nav a {
   color: #fff;
   text-decoration: none;
-  margin-left: 20px; /* Add some spacing between links */
+  margin-left: 20px;
 }
 
 .nav a:first-child {
-  margin-left: 0; /* No margin for the first link */
+  margin-left: 0;
 }
 
 .nav a:hover {
   text-decoration: underline;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
 }
