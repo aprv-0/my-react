@@ -51,7 +51,7 @@ const App = () => {
                 <h2 className="section-title">CONTACT ME AT</h2>
                 <div className="contact-details">
                   <div className="contact-box">
-                    <p>Email: <a href="mailto:apukarpe1502@gmail.com">apukarpe1502@gmail.com</a></p>
+                    <p>Email: <a href="mailto:apukarpe1502@gmail.com" target="_blank">apukarpe1502@gmail.com</a></p>
                   </div>
                   <div className="contact-box">
                     <p>Phone: +91 9028495933</p>
