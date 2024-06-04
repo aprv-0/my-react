@@ -18,11 +18,12 @@
   }
   
   .portfolio-link {
-    color: #007bff;
+    color: #e100ff;
     text-decoration: none;
   }
   
   .portfolio-link:hover {
     text-decoration: underline;
+
   }
   

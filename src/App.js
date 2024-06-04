@@ -35,6 +35,8 @@ const App = () => {
                     them.
                     <br />I am seeking an internship to understand how things
                     work within a team and to learn new things.
+                    <br/>Here are some of my work samples in the portfolio setction.
+                    <br/>Thank You!
                   </p>
                 </div>
               </div>
@@ -46,21 +48,21 @@ const App = () => {
           <section id="contact" className="section contact-section">
             <div className="container">
               <div className="section-content">
-                <h2 className="section-title">Contact</h2>
-                <p className="section-description">Let's work together!</p>
-                <p>
-                  Email:{" "}
-                  <a href="mailto:apukarpe1502@gmail.com">apukarpe1502@gmail.com</a>
-                </p>
-                <p className="section-description">Phone: +91 9028495933</p>
-                <p>
-                  Instagram:{" "}
-                  <a href="https://www.instagram.com/_aprv___/">@_aprv___</a>
-                </p>
-                <p>
-                  Github:{" "}
-                  <a href="https://github.com/aprv-0">@aprv-0</a>
-                </p>
+                <h2 className="section-title">CONTACT ME AT</h2>
+                <div className="contact-details">
+                  <div className="contact-box">
+                    <p>Email: <a href="mailto:apukarpe1502@gmail.com">apukarpe1502@gmail.com</a></p>
+                  </div>
+                  <div className="contact-box">
+                    <p>Phone: +91 9028495933</p>
+                  </div>
+                  <div className="contact-box">
+                    <p>Instagram: <a href="https://www.instagram.com/_aprv___/" target="_blank" rel="noopener noreferrer">@_aprv___</a></p>
+                  </div>
+                  <div className="contact-box">
+                    <p>Github: <a href="https://github.com/aprv-0" target="_blank" rel="noopener noreferrer">aprv-0</a></p>
+                  </div>
+                </div>
               </div>
             </div>
           </section>

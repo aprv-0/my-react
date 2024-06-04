@@ -9,21 +9,20 @@ const PortfolioList = () => {
         <div className="portfolio-items">
           <div className='portfolio-links'>
             <p>Project 1</p>
-            <a href="https://aprv-0.github.io/Resume/" target="_blank">My Resume</a>
+            <a href="https://aprv-0.github.io/Resume/">My Resume</a>
           </div>
           <div className='portfolio-links'>
             <p>Project 2</p>
-            <a href="https://aprv-0.github.io/REST-API/" target="_blank">REST-API</a>
+            <a href="https://github.com/aprv-0/PGLife_with_react" target="_blank">PGLife_with_react</a>
           </div>
           <div className='portfolio-links'>
-            <p>Project 3(Code)</p>
+            <p>Project 3</p>
             <a href="https://github.com/aprv-0/PGLife_without_react" target="_blank">PGLife_without_react</a>
           </div>
           <div className='portfolio-links'>
-            <p>Project 4(Code)</p>
-            <a href="https://github.com/aprv-0/PGLife_with_react" target="_blank">PGLife_with_react</a>
+            <p>Project 4</p>
+            <a href="https://aprv-0.github.io/REST-API/" target="_blank">REST-API</a>
           </div>
-          {/* Add more portfolio items here */}
         </div>
       </div>
     </section>
